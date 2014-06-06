@@ -33,7 +33,7 @@ $().ready(function () {
 
 function countDown(time, div, timerId) {
     div.html(time--);
-    if (time == 0) {
+    if (time == -1) {
         clearInterval(timerId);
     }
     return time;
