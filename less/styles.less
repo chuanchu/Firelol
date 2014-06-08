@@ -26,6 +26,8 @@
 .mg0auto{margin:0 auto};
 .fright{float:right};
 .fleft{float:left};
+.mgbot15{margin-bottom: 15px;}
+.mgtop57{margin-top: 57px;}
 
 /*Posicionamiento texto*/
 .al_left{text-align: left};
@@ -112,15 +114,46 @@
 
 
 /* Estilo tabla*/
-.info_usuarios table tbody  {border:2px solid #cfa71d}
-.info_usuarios table tbody tr td {border:1px solid #cfa71d}
-
-
+table tbody  {border:2px solid #cfa71d}
+table tbody tr td {border:1px solid #cfa71d}
+thead  {border:2px solid #cfa71d}
+thead tr th {border:1px solid #cfa71d}
 
 #recentgames table tr td {border:1px solid #cfa71d}
 #recentgames table{margin-top: 15px;
   margin-bottom: 15px;
   border:2px solid #cfa71d;
+}
+
+#campeones_length, .dataTables_info{
+  display: none;
+}
+
+.paging_simple_numbers{
+  font-size: 19px;
+  text-align: right;
+  margin-top: 10px;
+}
+input{
+  color: #000000;
+}
+
+.paging_simple_numbers a {
+  color: #F5FF00;
+  background: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#campeones_filter{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#campeones_filter label{
+  color: yellow;
+  background: black;
 }
 
 #recentgames{display:none;}
